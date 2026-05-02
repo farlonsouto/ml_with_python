@@ -1,0 +1,32 @@
+name: pytorch-dl
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+      - mlflow
+      - tensorboard
+      - wandb
+      - torchmetrics
+      - hydra-core
+      - black
+      - isort
+      - pytest
+      
+# Use it by running the following comands: 
+# conda env create -f environment.txt
+# conda activate pytorch-dl
