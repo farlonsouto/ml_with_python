@@ -26,7 +26,8 @@ dependencies:
       - black
       - isort
       - pytest
+      - mglearn
       
-# Use it by running the following comands: 
+# Use it by running the following commands:
 # conda env create -f environment.txt
 # conda activate pytorch-dl
